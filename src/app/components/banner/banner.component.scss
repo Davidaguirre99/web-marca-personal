@@ -1,0 +1,26 @@
+nav{
+    padding: 0;
+}
+#barra-navegar{
+    background-color: #2C3333; 
+}
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+    cursor: pointer;
+}
+li:hover{
+    background-color: #0E8388;
+    color: white;
+}
+.nav-link{
+    padding: 15px 10px 15px 10px;
+
+}
+
+.current-item{
+    background-color: #0E8388;
+    color: white;
+}
