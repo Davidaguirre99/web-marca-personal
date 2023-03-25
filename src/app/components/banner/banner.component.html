@@ -2,7 +2,7 @@
   <div class="container-fluid" id="barra-navegar">
     <div class="d-flex flex-grow-1">
       <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-      <a class="navbar-brand" href="#">DAVID AGUIRRE</a>
+      <a class="navbar-brand" (click)="irASobreMi()">DAVID AGUIRRE</a>
       <div class="w-100 text-right">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFFFFF" class="bi bi-list" viewBox="0 0 16 16">
@@ -13,16 +13,16 @@
     </div>
     <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarTogglerDemo02">
       <ul class="navbar-nav ms-auto flex-nowrap">
-        <li class="nav-item current-item">
-          <a class="nav-link " aria-current="page" href="#">Sobre mí</a>
+        <li class="nav-item" (click)="changeBackgroundColor(0)">
+          <a class="nav-link " aria-current="page" (click)="irASobreMi()">Sobre mí</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="http://localhost:4200/skills">Habilidades</a>
+        <li class="nav-item" (click)="changeBackgroundColor(1)">
+          <a class="nav-link" (click)="irAHabilidades()" >Habilidades</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" (click)="changeBackgroundColor(2)">
           <a class="nav-link">Proyectos</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" (click)="changeBackgroundColor(3)">
           <a class="nav-link">Experiencia Profesional</a>
         </li>
       </ul>

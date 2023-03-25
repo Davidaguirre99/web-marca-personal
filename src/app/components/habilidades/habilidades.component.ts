@@ -17,4 +17,7 @@ export class HabilidadesComponent {
       tituloImagen:"Suficiencia B2 en Inglés"
     }
   ]
+  ngOnInit(){
+    document.getElementsByClassName('nav-item').item(1)?.classList.add('current-item');
+  }
 }

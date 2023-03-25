@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./sobre-mi.component.scss']
 })
 export class SobreMiComponent {
-
+  ngOnInit(){
+    document.getElementsByClassName('nav-item').item(0)?.classList.add('current-item');
+  }
 }
