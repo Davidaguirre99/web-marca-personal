@@ -1,22 +1,20 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ContenidoPrincipalComponent } from './components/contenido-principal/contenido-principal.component';
+import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
 
 const routes: Routes = [
   {
-    path:'main-content',
-    component: ContenidoPrincipalComponent,
-    children:[
-      {
-        path:'about-me',
-        component:SobreMiComponent
-      }
-    ]
+    path:'about-me',
+    component:SobreMiComponent
+  },
+  {
+    path:'skills',
+    component:HabilidadesComponent
   },
   {
     path:'',
-    redirectTo:'/main-content/about-me',
+    redirectTo:'/about-me',
     pathMatch:'full'
   }
 ];
