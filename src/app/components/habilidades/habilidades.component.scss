@@ -1,16 +1,21 @@
 #contenedor-principal{
     min-height: 68.5vh;
 }
+
 .carousel-item img {
     height: 350px;
+    border-radius: 50px;
+    margin-bottom: 10px;
 }
 .carousel-item h5 {
-    color: #1985A1;
+    color: #ffffff;
 }
 .carousel-item p {
-    color: #0E8388;
+    color: #ffffff;
+    font-weight: 500;
 }
 .carousel-caption{
     background-color: #2C3333;
-    opacity: 0.95;
+    opacity: 0.93;
+    border-radius: 25px;
 }
