@@ -19,3 +19,19 @@
     opacity: 0.93;
     border-radius: 25px;
 }
+@media(max-width: 425px){
+    // .carousel .slide{
+    //     width: calc(5rem + 0.99vw);
+    // }
+
+    // .carousel-item img {
+    //     font-size: calc( 0.8rem );
+    //     border-radius: rfs-fluid-value(2rem);
+    //     margin-bottom: rfs-fluid-value(2rem);
+    //     width: rfs-fluid-value(2rem);
+    // }
+    .carousel-caption{
+        font-size: calc( 0.7rem + 0.65vw );
+        opacity: 0.85;
+    }
+}
