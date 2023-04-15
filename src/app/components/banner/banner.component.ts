@@ -41,4 +41,8 @@ export class BannerComponent {
     const ruta = ['about-me'];
     this.router.navigate(ruta);
   }
+  irAProyectos(){
+    const ruta = ['proyects'];
+    this.router.navigate(ruta);
+  }
 }
