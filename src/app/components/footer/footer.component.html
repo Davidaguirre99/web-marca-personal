@@ -20,5 +20,15 @@
                 <div class="p pt-3" id="referencia">Los íconos que ves fueron tomados de <a href="https://www.flaticon.com/" target="_blank">FlatIcon</a></div>
             </div>
         </div>
+        <div *ngSwitchCase="3">
+            <div class="h6 text-center py-2">{{tituloFooter}}</div>
+            <div class="row text-center align-items-center" id="contenedor-footer-1">
+                <div class="col" *ngFor="let objetoFooter of listaFooter" >
+                    <img src="{{objetoFooter.imagen}}" alt="Ícono que describe a {{objetoFooter.tituloImagen}}" height="70" width="70" class="my-2">
+                    <div class="p"><a href="{{objetoFooter.enlace}}" target="_blank">{{objetoFooter.tituloImagen}}</a></div>
+                </div>
+                <div class="p pt-3" id="referencia">Los íconos que ves fueron tomados de <a href="https://www.flaticon.com/" target="_blank">FlatIcon</a></div>
+            </div>
+        </div>
     </div>
 </div>

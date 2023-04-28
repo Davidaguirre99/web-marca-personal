@@ -1,0 +1,34 @@
+<div class="p text-center my-4 px-3">
+    Aqui puedes conocer mi experiencia en varios ámbitos:
+</div>
+<div class="container-fluid" id="contenedor-proyectos">
+    <div class="card shadow-lg mb-2  mx-auto w-75 tarjeta-proyecto" *ngFor="let experiencia of experiencias">
+        <div class="row py-3 px-3">
+            <div class="col-lg-3 col-xs-12 col-sm-12 align-self-start">
+                <img 
+                src="{{experiencia.imagen}}" 
+                alt="Sistema de gestion odontológica en la interfaz de cargar odontograma" 
+                class="img-fluid mx-auto d-block imagen-proyecto">
+                <div class="h6 text-center pt-3">
+                    {{experiencia.cargo}}
+                </div>
+                <div class="h6 text-center">
+                    {{experiencia.empresa}}
+                </div>
+                <div class="h6 text-center">
+                    {{experiencia.periodo}}
+                </div>
+            </div>
+            <div class="col-lg-8 col-xs-12 col-sm-12 columna-aprendizaje mx-auto">
+                <div class="h4 my-2 text-center">Actividades Realizadas:</div>
+                <div class="p my-3 px-4">
+                    <ul *ngFor="let actividad of experiencia.actividades; let i=index">
+                        <li>{{actividad}} <br></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<app-footer [tipoFooter]="tipoFooter" [tituloFooter]="tituloFooter" [listaFooter]="listaFooter"></app-footer>

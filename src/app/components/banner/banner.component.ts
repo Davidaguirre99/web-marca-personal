@@ -45,4 +45,8 @@ export class BannerComponent {
     const ruta = ['proyects'];
     this.router.navigate(ruta);
   }
+  irAExperiencia(){
+    const ruta = ['my-experience'];
+    this.router.navigate(ruta);
+  }
 }

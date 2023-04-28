@@ -15,19 +15,23 @@ export class FooterComponent {
   listaFooter:any[]=[
     {
       imagen:"../../../assets/img/honest.png",
-      tituloImagen:"Honestidad"
+      tituloImagen:"Honestidad",
+      enlace:"",
     },
     {
       imagen:"../../../assets/img/loyalty.png",
-      tituloImagen:"Lealtad"
+      tituloImagen:"Lealtad",
+      enlace:"",
     },
     {
       imagen:"../../../assets/img/respect.png",
-      tituloImagen:"Respeto"
+      tituloImagen:"Respeto",
+      enlace:"",
     },
     {
       imagen:"../../../assets/img/discipline.png",
-      tituloImagen:"Disciplina"
+      tituloImagen:"Disciplina",
+      enlace:"",
     },
   ];
   constructor(

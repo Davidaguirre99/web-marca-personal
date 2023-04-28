@@ -1,7 +1,7 @@
 <div class="p text-center my-4 px-3">
     Te presento proyectos académicos realizados y el aprendizaje que he obtenido de ellos:
 </div>
-<div class="container-fluid overflow-auto">
+<div class="container-fluid" id="contenedor-proyectos">
     <div class="card shadow-lg mb-2  mx-auto w-75 tarjeta-proyecto" *ngFor="let proyecto of proyectos">
         <div class="row py-3 px-3">
             <div class="col-lg-3 col-xs-12 col-sm-12 align-self-start">
@@ -25,3 +25,4 @@
 
     </div>
 </div>
+<app-footer [tipoFooter]="tipoFooter" [tituloFooter]="tituloFooter" [listaFooter]="listaFooter"></app-footer>
