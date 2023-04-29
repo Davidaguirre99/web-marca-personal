@@ -13,7 +13,7 @@
         <div *ngSwitchCase="2">
             <div class="h6 text-center py-2">{{tituloFooter}}</div>
             <div class="row text-center align-items-center" id="contenedor-footer-1">
-                <div class="col" *ngFor="let objetoFooter of listaFooter" >
+                <div class="col-md col-xs-12 col-sm-6" *ngFor="let objetoFooter of listaFooter" >
                     <img src="{{objetoFooter.imagen}}" alt="Ícono que describe a {{objetoFooter.tituloImagen}}" height="70" width="70" class="my-2">
                     <div class="p">{{objetoFooter.tituloImagen}}</div>
                 </div>
@@ -23,7 +23,7 @@
         <div *ngSwitchCase="3">
             <div class="h6 text-center py-2">{{tituloFooter}}</div>
             <div class="row text-center align-items-center" id="contenedor-footer-1">
-                <div class="col" *ngFor="let objetoFooter of listaFooter" >
+                <div class="col-md col-xs-12 col-sm-6" *ngFor="let objetoFooter of listaFooter" >
                     <img src="{{objetoFooter.imagen}}" alt="Ícono que describe a {{objetoFooter.tituloImagen}}" height="70" width="70" class="my-2">
                     <div class="p"><a href="{{objetoFooter.enlace}}" target="_blank">{{objetoFooter.tituloImagen}}</a></div>
                 </div>
