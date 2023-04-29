@@ -27,7 +27,9 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
+              "src/assets/img",
+              "src/assets/js",
+              "src/assets/scss",
               "src/DAAGiconf.ico"
             ],
             "styles": [
@@ -94,7 +96,9 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
+              "src/assets/img",
+              "src/assets/js",
+              "src/assets/scss",
               "src/DAAGiconf.ico"
             ],
             "styles": [
