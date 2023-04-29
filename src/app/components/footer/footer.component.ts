@@ -14,22 +14,22 @@ export class FooterComponent {
   @Input()
   listaFooter:any[]=[
     {
-      imagen:"../../../assets/img/honest.png",
+      imagen:"assets/img/honest.png",
       tituloImagen:"Honestidad",
       enlace:"",
     },
     {
-      imagen:"../../../assets/img/loyalty.png",
+      imagen:"assets/img/loyalty.png",
       tituloImagen:"Lealtad",
       enlace:"",
     },
     {
-      imagen:"../../../assets/img/respect.png",
+      imagen:"assets/img/respect.png",
       tituloImagen:"Respeto",
       enlace:"",
     },
     {
-      imagen:"../../../assets/img/discipline.png",
+      imagen:"assets/img/discipline.png",
       tituloImagen:"Disciplina",
       enlace:"",
     },

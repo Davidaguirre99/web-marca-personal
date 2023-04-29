@@ -11,33 +11,33 @@ export class ProyectosComponent {
 
   listaFooter:any=[
     {
-      imagen:"../../../assets/img/angular.png",
+      imagen:"assets/img/angular.png",
       tituloImagen:"Angular"
     },
     {
-      imagen:"../../../assets/img/java.png",
+      imagen:"assets/img/java.png",
       tituloImagen:"Java"
     },
     {
-      imagen:"../../../assets/img/sqlserverlogo.png",
+      imagen:"assets/img/sqlserverlogo.png",
       tituloImagen:"SQL Server"
     },
     {
-      imagen:"../../../assets/img/mysqllogo.png",
+      imagen:"assets/img/mysqllogo.png",
       tituloImagen:"MySQL"
     },
     {
-      imagen:"../../../assets/img/scrum.png",
+      imagen:"assets/img/scrum.png",
       tituloImagen:"Scrum"
     },
     {
-      imagen:"../../../assets/img/net.png",
+      imagen:"assets/img/net.png",
       tituloImagen:".Net"
     }
   ]
   proyectos = [
     {
-      imagen : '../../../assets/img/sicof-odontograma.jpg',
+      imagen : 'assets/img/sicof-odontograma.jpg',
       titulo : "Sistema de Gestión Integrado para el Consultorio Odontológico FullDental's",
       habilidades:[
         'Java',
@@ -46,7 +46,7 @@ export class ProyectosComponent {
       ]
     },
     {
-      imagen : '../../../assets/img/docker.png',
+      imagen : 'assets/img/docker.png',
       titulo : 'Pipeline de Integración Continua',
       habilidades:[
         'Java',
@@ -56,7 +56,7 @@ export class ProyectosComponent {
       ]
     },
     {
-      imagen : '../../../assets/img/jsp.png',
+      imagen : 'assets/img/jsp.png',
       titulo : 'Aplicación Web de Gestión de Horarios de Tutorías Académicas',
       habilidades:[
         'Java',
@@ -65,7 +65,7 @@ export class ProyectosComponent {
       ]
     },
     {
-      imagen : '../../../assets/img/polimarketimg.PNG',
+      imagen : 'assets/img/polimarketimg.PNG',
       titulo : 'Aplicación Web de Gestión de Pedidos, Productos y Sucursales',
       habilidades:[
         'Angular Framework',
@@ -77,7 +77,7 @@ export class ProyectosComponent {
       ]
     },
     {
-      imagen : '../../../assets/img/Pholap.jpg',
+      imagen : 'assets/img/Pholap.jpg',
       titulo : 'Aplicación Móvil para Empresas de Fotografías Profesionales',
       habilidades:[
         'Android',

@@ -9,11 +9,11 @@ export class HabilidadesComponent {
   tipoFooter:number=2;
   tituloFooter:string="IDIOMAS";
   imagenesSlides:string[]=[
-    "../../../assets/img/trabajo_en_equipo.JPG"
+    "assets/img/trabajo_en_equipo.JPG"
   ]
   listaFooter:any=[
     {
-      imagen:"../../../assets/img/medal.png",
+      imagen:"assets/img/medal.png",
       tituloImagen:"Suficiencia B2 en Inglés"
     }
   ]
