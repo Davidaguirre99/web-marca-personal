@@ -11,24 +11,24 @@ export class ExperienciaComponent {
 
   listaFooter:any=[
     {
-      imagen:"assets/img/gmail.png",
+      imagen:"gmail.png",
       tituloImagen:"davidaguirreg@gmail.com",
       enlace:"",
     },
     {
-      imagen:"assets/img/linkedin.png",
+      imagen:"linkedin.png",
       tituloImagen:"Mi perfil LinkedIn",
       enlace:"https://www.linkedin.com/in/david-aguirre-799244221/"
     },
     {
-      imagen:"assets/img/movistar.png",
+      imagen:"movistar.png",
       tituloImagen:"+593 995 158 700",
       enlace:"",
     },
   ]
   experiencias = [
     {
-      imagen : 'assets/img/GlodFigma.jpg',
+      imagen : 'GlodFigma.jpg',
       cargo : "Desarrollador Frontend",
       empresa: "Manticore Labs",
       periodo: "Abril 2022 - Julio 2022",
@@ -41,7 +41,7 @@ export class ExperienciaComponent {
       ]
     },
     {
-      imagen : 'assets/img/logoepn.png',
+      imagen : 'logoepn.png',
       cargo : "Miembro Evaluador de Mallas Curriculares",
       empresa: "Escuela Politécnica Nacional",
       periodo: "Enero 2023 - Marzo 2023",
@@ -54,7 +54,7 @@ export class ExperienciaComponent {
       ]
     },
     {
-      imagen : 'assets/img/Banco-Pichincha.png',
+      imagen : 'Banco-Pichincha.png',
       cargo : "Gestor de Contratos Tecnológicos",
       empresa: "Banco Pichincha",
       periodo: "Abril 2023 - Septiembre 2023",
